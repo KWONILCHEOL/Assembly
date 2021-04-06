@@ -36,7 +36,7 @@ loop:   set fmt2,%o0
         mov %g0,%l3		!레지스터 l3에 0 저장
 
 sum:    add %l1,%l3,%l3		!l3 += l1
-        subcc %l1,%l2,%g0	!if(l1 < l2)
+        subcc %l1,%l2,%g0	!if(l1 - l2 > 0)
         inc %l1				!l1++, 레이블sum로 branch
         bl sum
         nop
