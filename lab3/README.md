@@ -1,3 +1,8 @@
+## 소수와 비소수
+
+### [과제 설명](/lab3/lab3.pdf)
+### [소스코드](/lab3/lab3.s)
+```assembly
 fmt1:   .asciz "input = "
 fmt2:   .asciz "%d"
 fmt3:   .asciz "output = non-prime number(%d)\n"
@@ -58,3 +63,4 @@ non:    set fmt3,%o0		!비소수 출력
 
 exit:   ret
         restore 
+```

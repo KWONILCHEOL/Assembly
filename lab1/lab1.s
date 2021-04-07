@@ -14,10 +14,10 @@ loop:   set fmt2,%o0
         call scanf
         nop
 
-        add %fp,-4,%o0	!메모리 x 위치에 기억되어 있는 정보를
-        ld [%o0],%l1	!레지스터 l1에 복사
+        add %fp,-4,%o0		!메모리 x 위치에 기억되어 있는 정보를
+        ld [%o0],%l1		!레지스터 l1에 복사
         
-        subcc %l1,0,%g0	!음수이면 종료
+        subcc %l1,0,%g0		!음수이면 종료
         bl exit
         nop
         
@@ -30,10 +30,10 @@ loop:   set fmt2,%o0
         call scanf
         nop
         
-        add %fp,-4,%o0	!메모리 x 위치에 기억되어 있는 정보를
-        ld [%o0],%l2    !레지스터 l2에 복사
+        add %fp,-4,%o0		!메모리 x 위치에 기억되어 있는 정보를
+        ld [%o0],%l2    	!레지스터 l2에 복사
         
-        mov %g0,%l3		!레지스터 l3에 0 저장
+        mov %g0,%l3			!레지스터 l3에 0 저장
 
 sum:    add %l1,%l3,%l3		!l3 += l1
         subcc %l1,%l2,%g0	!if(l1 - l2 > 0)

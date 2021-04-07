@@ -1,3 +1,8 @@
+## 오름차순 정렬
+
+### [과제 설명](/lab4/lab4.pdf)
+### [소스코드](/lab4/lab4.s)
+```assembly
         .section ".text"
 fmt0:   .asciz "%3d"
 fmt1:   .asciz "array element is %d\n"
@@ -94,3 +99,4 @@ print1: sub %l2,4,%l2
         nop
 exit:   ret
         restore
+```

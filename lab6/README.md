@@ -1,3 +1,8 @@
+## 서브루틴
+
+### [과제 설명](/lab6/lab6.pdf)
+### [소스코드](/lab6/lab6.s)
+```assembly
 st:     .asciz "start\n"
 fmt1:   .asciz "input = "
 fmt11:  .asciz "input(1,2) = "
@@ -108,3 +113,4 @@ print:  set fmt3,%o0
 
 exit:   ret
         restore
+```

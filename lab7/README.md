@@ -1,3 +1,8 @@
+## 부동소수점 합
+
+### [과제 설명](/lab7/lab7.pdf)
+### [소스코드](/lab7/lab7.s)
+```assembly
         .section ".data"
 a:      .single 0r999.0
 b:      .single 0r1.0
@@ -59,3 +64,4 @@ output: ldd [%fp-16],%o2
 
 exit:   ret
         restore
+```
