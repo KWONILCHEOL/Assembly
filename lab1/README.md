@@ -1,8 +1,9 @@
 ##두 수 사이 합 구하기
+
 ###과제 설명
 - [lab1](/lab1.pdf)
 
-###source
+###소스 코드
 ```assemble
 fmt1:   .asciz "==output==%d\n"
 fmt2:   .asciz "input="
