@@ -1,11 +1,8 @@
-두 수 사이 합 구하기
+## 두 수 사이 합 구하기
 
-[과제](/lab1.pdf)
-
-소스 코드
-
-  
-```assemble
+### [과제 설명](/lab1.pdf)
+### [소스코드](/lab1.s)
+```assembly
 fmt1:   .asciz "==output==%d\n"
 fmt2:   .asciz "input="
 fmt4:   .asciz "%d"
