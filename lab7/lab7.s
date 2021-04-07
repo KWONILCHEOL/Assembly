@@ -42,9 +42,9 @@ input:  set fmt0,%o0
 
         fstod %f2,%f4
 
-        ldd [%fp-16],%f6
+        ldd [%fp-16],%f6	
         faddd %f4,%f6,%f6
-        std %f6,[%fp-16]
+        std %f6,[%fp-16]	!입력값 누적
 
         ba input
         nop
