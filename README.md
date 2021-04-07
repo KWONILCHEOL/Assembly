@@ -1,5 +1,4 @@
-# Assembly
-Assembly Language Lecture
+## Assembly Language Lecture
 
 - [두 수 사이 합 구하기](/lab1/)
 - [입력받은 수를 16진수로](/lab2/)
