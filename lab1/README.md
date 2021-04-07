@@ -1,11 +1,11 @@
-<h2>두 수 사이 합 구하기
+두 수 사이 합 구하기
 
-<h3>과제 설명
-<h4>
-[lab1](/lab1.pdf)
+과제 설명
 
-<h3>소스 코드
-<h4>
+ - [lab1](/lab1.pdf)
+
+소스 코드
+
   
 ```assemble
 fmt1:   .asciz "==output==%d\n"
